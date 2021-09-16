@@ -1,5 +1,5 @@
 "use strict";
-
+/*
 let money = prompt("Ваш бюджет на месяц?", ''),
 	time = prompt('Введите дату в формате YYYY-MM-DD', '');
 
@@ -21,3 +21,28 @@ appData.expenses.a1 = a2;
 appData.expenses.a3 = a4;
 
 alert(appData.budget / 30);
+*/
+
+let num = 50;
+
+switch (num){
+    case num < 49:
+        console.log('Wrong');
+    break;
+
+    case num > 100:
+        console.log('mnoqo');
+    break;
+
+    case num > 80:
+        console.log('helede mnoqo');
+    break;
+
+    case 50:
+        console.log('right');
+    break;
+
+    default:
+        console.log('Some get Error');
+    break;
+}
