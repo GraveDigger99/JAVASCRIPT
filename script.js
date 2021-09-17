@@ -46,3 +46,15 @@ switch (num){
         console.log('Some get Error');
     break;
 }
+
+while (num < 55){
+    console.log(num);
+    num++;
+}
+
+for (let i = 1; i < 8; i++){
+    if ( i == 6){
+        continue;
+    }
+    console.log(i);
+}
