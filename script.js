@@ -93,3 +93,12 @@ if (appData.moneyPerDay < 100) {
 }
 */
 
+ function BIGY(callback){
+
+ }
+
+ function showMesaage(text){
+     alert(text);
+ }
+
+ showMesaage('hello');
